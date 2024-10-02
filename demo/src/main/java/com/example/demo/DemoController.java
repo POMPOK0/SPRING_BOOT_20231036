@@ -17,5 +17,4 @@ public class DemoController {
     public String about() {
         return "about_detailed";
     }
-
 } 
