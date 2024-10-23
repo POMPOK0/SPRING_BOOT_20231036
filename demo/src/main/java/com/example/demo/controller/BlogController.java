@@ -5,7 +5,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import com.example.demo.model.domain.Article;
-import com.example.demo.service.BlogService;
+import com.example.demo.model.service.BlogService;
+
 
 import java.util.List;
 
