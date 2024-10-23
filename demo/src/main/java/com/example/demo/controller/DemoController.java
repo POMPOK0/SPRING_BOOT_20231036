@@ -17,4 +17,8 @@ public class DemoController {
     public String about() {
         return "about_detailed";
     }
+    @GetMapping("/article_list")
+    public String article_list() {
+        return "article_list";
+    }
 } 
